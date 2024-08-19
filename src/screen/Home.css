@@ -1,0 +1,46 @@
+/* Home.css */
+
+.home-container {
+    background-color: #121212;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #008080;
+    border-color: #008080;
+  }
+  
+  .btn-primary:hover {
+    background-color: #005f5f;
+    border-color: #005f5f;
+  }
+  

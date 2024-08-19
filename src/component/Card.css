@@ -1,0 +1,32 @@
+/* Card.css */
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #243B55;
+  border-color: #243B55;
+}
+
+.btn-primary:hover {
+  background-color: #141E30;
+  border-color: #141E30;
+}
